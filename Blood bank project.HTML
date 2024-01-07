@@ -1,0 +1,967 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sign Up</title>
+  
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #880000;
+      margin: 0;
+      padding: 0;
+    }
+
+    .container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+    }
+
+    .box {
+      background-color: #ffcfcff1;
+      border-radius: 92px;
+      width: 550px;
+      height: 500px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      
+    }
+    label {
+      color: #850000;
+      font-size: 18px;
+      margin-bottom: 5px;
+      display: block;
+      font-weight: bolder;
+    }
+
+    input[type="text"],
+
+    input[type="email"],
+
+    input[type="password"]
+     {
+      padding: 10px 30px 10px 30px;
+      margin-top: 2px;
+      border: 1px solid #d86666;
+      border-radius: 14px;
+      background-color: #f7f4f4;
+      color: #960000;
+      margin-left: 30px;
+      font-weight: bolder;
+      
+    }
+
+    button {
+      padding: 10px 40px 10px 40px;
+      background-color: #700000;
+      color: #fff;
+
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      font-weight: bold;
+      margin-top: 16px;
+      transition: background-color 0.3s ease;
+      margin-left: 140px;
+      
+    }
+
+    button:hover {
+      background-color: #b62828;
+    }
+
+    h2 {
+      text-align: center;
+      color: #830000;
+margin-top: 20px;
+      font-weight: bolder;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <div class="box">
+      <h2>SIGN -UP </h2>
+      
+      <form>
+
+        <div class="form-group">
+          <label for="username">Username:</label>
+          <input type="text" id="username" name="username">
+        </div>
+
+
+        <div class="form-group">
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email">
+        </div>
+
+
+        <div class="form-group">
+          <label for="password">Password:</label>
+          <input type="password" id="password" name="password">
+        </div>
+
+
+        <button type="submit">Sign Up</button>
+      </form>
+      <p>Already have an account? <a href="#">Login</a></p>
+    </div>
+  </div>
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <style>
+     
+  
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #700000;
+      margin: 0;
+      padding: 0;
+    }
+
+    .container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+    }
+
+    .box {
+      background-color: #fcd2d2f1;
+      
+      border-radius: 92px;
+      width: 550px;
+      height: 500px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      
+    }
+    label {
+      color: #830000;
+      font-size: 18px;
+      margin-bottom: 5px;
+      display: block;
+      font-weight: bolder;
+    }
+
+    input[type="text"],
+
+    input[type="email"],
+
+    input[type="password"]
+     {
+      padding: 10px 30px 10px 30px;
+      margin-top: 2px;
+      border: 1px solid #3f0101;
+      border-radius: 14px;
+      background-color: #ffffff;
+      color: #800404;
+      margin-left: 30px;
+      font-weight: bolder;
+      
+    }
+
+    button {
+      padding: 10px 40px 10px 40px;
+      background-color: #770000;
+      color: #ffffff;
+
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      font-weight: bold;
+      margin-top: 16px;
+      transition: background-color 0.3s ease;
+      margin-left: 140px;
+      
+    }
+
+    button:hover {
+      background-color: #fd5454;
+    }
+
+    h2 {
+      text-align: center;
+      color: #740000;
+margin-top: 20px;
+      font-weight: bolder;
+    }
+    </style>
+
+
+<body>
+
+<div class="container">
+    <div class="box">
+   
+         <h2>Login</h2>
+         <form>
+
+        <div class="form-group">
+          <label for="username">Name:</label>
+          <input type="text" id="name" name="name">
+        </div>
+
+
+        <div class="form-group">
+          <label for="email">Password:</label>
+          <input type="email" id="password" name="Password">
+        </div>
+
+
+
+        <button type="submit">log In</button>
+      </form>
+      <p>Don't have an account? <a href="#">Signup</a></p>
+    </div>
+  </div>
+</div>
+</body>
+</html>
+</head>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard</title>
+  
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #6d0303;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      height: 100vh;
+    }
+
+    .dashboard {
+      background-color: #eeeaeabe;
+      color: #700000;
+    padding : 20px;
+      width: 200px;
+      height: 800px;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: space-between;
+    }
+
+    .dashboard h1 {
+      margin-bottom: 20px;
+    }
+
+    .dashboard button {
+      background-color: #af0000;
+      color: #ffffff;
+      padding: 30px 60px 30px 60px;
+      border: none;
+      border-radius: 17px;
+      cursor: pointer;
+      margin-top: 10px;
+    margin-bottom: 3px;
+font-weight: bolder;
+    }
+
+    .content {
+      padding: 20px;
+      flex-grow: 1;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .info-box {
+      background-color: #fddadaef;
+      border: 1px solid #DDD;
+      border-radius: 14px;
+      padding: 20px;
+
+      margin-top: 20px;
+      width: 700px;
+      text-align: left;
+      font-weight: bolder;
+    }
+
+    .info-box label {
+      display: block;
+      margin-bottom: 8px;
+      color: #1a1a1a;
+    }
+
+    .info-box input {
+      width: 100%;
+      padding: 8px;
+      margin-bottom: 16px;
+
+      box-sizing: border-box;
+    }
+
+    .submit-button {
+      background-color: #800000;
+      color: #FFF;
+      padding: 10px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      margin-left: 600px;
+    }
+
+    .nav-buttons {
+      display: flex;
+      justify-content: flex-end;
+      margin-bottom: 10px;
+    }
+
+    .nav-buttons button {
+      background-color: #ffbaba;
+      color: #550101;
+      margin-left: 10px;
+      padding: 8px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="dashboard">
+    <h1>Blood Donor</h1>
+
+    <button>Donor</button>
+    <button>Hospital</button>
+    <button>Records</button>
+    <button>Request</button>
+    <button>Preview</button>
+  </div>
+
+  <div class="content">
+    <div class="nav-buttons">
+      <button>Home</button>
+      <button>About Us</button>
+      <button>Contact</button>
+    </div>
+
+    <div class="info-box">
+   
+
+      <label for="cnic">CNIC:</label>
+      <input type="text" id="cnic" name="cnic">
+
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name">
+
+      <label for="bloodType">Blood Type:</label>
+      <input type="text" id="bloodType" name="bloodType">
+
+      <label for="age">Age:</label>
+      <input type="text" id="age" name="age">
+
+      <label for="disease">Disease:</label>
+      <input type="text" id="disease" name="disease">
+
+      <label for="address">Address:</label>
+      <input type="text" id="address" name="address">
+
+      <button class="submit-button">Submit</button>
+    </div>
+  </div>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard</title>
+  
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #6d0303;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      height: 100vh;
+    }
+
+    .dashboard {
+      background-color: #eeeaeabe;
+      color: #700000;
+    padding : 20px;
+      width: 200px;
+      height: 800px;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: space-between;
+    }
+
+    .dashboard h1 {
+      margin-bottom: 20px;
+    }
+
+    .dashboard button {
+      background-color: #af0000;
+      color: #ffffff;
+      padding: 30px 60px 30px 60px;
+      border: none;
+      border-radius: 17px;
+      cursor: pointer;
+      margin-top: 10px;
+    margin-bottom: 3px;
+font-weight: bolder;
+    }
+
+    .content {
+      padding: 20px;
+      flex-grow: 1;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .info-box {
+      background-color: #fddadaef;
+      border: 1px solid #DDD;
+      border-radius: 14px;
+      padding: 20px;
+
+      margin-top: 90px;
+      width: 700px;
+      text-align: left;
+      font-weight: bolder;
+    }
+
+    .info-box label {
+      display: block;
+      margin-bottom: 8px;
+      color: #1a1a1a;
+    }
+
+    .info-box input {
+      width: 100%;
+      padding: 8px;
+      margin-bottom: 16px;
+      
+      box-sizing: border-box;
+    }
+
+    .submit-button {
+      background-color: #800000;
+      color: #FFF;
+      padding: 10px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      margin-left: 600px;
+
+    }
+
+    .nav-buttons {
+      display: flex;
+      justify-content: flex-end;
+      margin-top: 40px;
+margin-left: 700px;
+    }
+
+    .nav-buttons button {
+      background-color: #ffbaba;
+      color: #550101;
+      margin-left: 10px;
+      padding: 18px 30px 18px 30px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="dashboard">
+    <h1>Blood Donor</h1>
+
+    <button>Donor</button>
+    <button>Hospital</button>
+    <button>Records</button>
+    <button>Request</button>
+    <button>Preview</button>
+  </div>
+
+  <div class="content">
+    <div class="nav-buttons">
+      <button>Home</button>
+      <button>About Us</button>
+      <button>Contact</button>
+    </div>
+
+    <div class="info-box">
+   
+
+      <label for="cnic">donor details :</label>
+      <input type="text" id="text" >
+
+      <label for="name">blood type:</label>
+      <input type="text" id="name" name="name">
+
+      <label for="bloodType">hospital:</label>
+      <input type="text" id="bloodType" name="bloodType">
+
+      <label for="age">Quantity:</label>
+      <input type="text" id="age" name="age">
+
+      <label for="disease">Address</label>
+      <input type="text" id="disease" name="disease">
+
+      
+
+      <button class="submit-button">Submit</button>
+    </div>
+  </div>
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard</title>
+  
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #850404;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      height: 100vh;
+    }
+
+   
+    .dashboard {
+      background-color: #eeeaeabe;
+      color: #700000;
+    padding : 20px;
+      width: 200px;
+      height: 800px;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: space-between;
+    }
+
+    .dashboard h1 {
+      margin-bottom: 20px;
+    }
+
+    .dashboard button {
+      background-color: #af0000;
+      color: #ffffff;
+      padding: 30px 60px 30px 60px;
+      border: none;
+      border-radius: 17px;
+      cursor: pointer;
+      margin-top: 10px;
+    margin-bottom: 3px;
+font-weight: bolder;
+    }
+
+     
+    .content {
+      padding: 20px;
+      flex-grow: 1;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .info-container {
+      background-color: #ffbbbb;
+      border: 1px solid #DDD;
+      border-radius: 14px;
+      padding: 60px 100px 60px 100px;
+      margin-top: 80px;
+      width:700px;
+      
+      text-align: left;
+      margin-bottom: 20px;
+     
+    }
+
+    .info-box {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      margin-bottom: 30px;
+      margin-left:0px ;
+    }
+
+    .info-box label {
+      color: #333;
+    }
+
+    .info-box input {
+      width: 100px;
+      padding: 8px;
+      box-sizing: border-box;
+    }
+
+    .submit-button {
+      background-color: #800000;
+      color: #FFF;
+      padding: 10px 40px 10px 40px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      margin-left: 490px;
+    }
+
+    .nav-buttons {
+      display: flex;
+      justify-content: flex-end;
+      margin-top: 40px;
+margin-left: 700px;
+    }
+
+    .nav-buttons button {
+      background-color: #ffbaba;
+      color: #550101;
+      margin-left: 10px;
+      padding: 18px 30px 18px 30px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="dashboard">
+    <h1>Blood Donor</h1>
+    <button>Donor</button>
+    <button>Hospital</button>
+    <button>Records</button>
+    <button>Request</button>
+    <button>Preview</button>
+  </div>
+
+  <div class="content">
+    <div class="nav-buttons">
+      <button>Home</button>
+      <button style="margin-right: 10px;">About Us</button>
+      <button style="margin-right: 10px;">Contact</button>
+    </div>
+
+    <div class="info-container">
+      <div class="info-box">
+        <label for="name1">Name:</label>
+        <input type="text" id="name1" name="name1" value="Ali" disabled>
+
+        <label for="quantity1">Qty:</label>
+        <input type="text" id="quantity1" name="quantity1" value="1" disabled>
+
+        <label for="age1">Bloodtype:</label>
+        <input type="text" id="age1" name="age1" value="A+" disabled>
+
+        <label for="date1">Date:</label>
+        <input type="text" id="date1" name="date1" value="4/4/23" disabled>
+      </div>
+
+  
+      <div class="info-box">
+        <label for="name1">Name:</label>
+        <input type="text" id="name1" name="name1" value="salma" disabled>
+
+        <label for="quantity1">Qty:</label>
+        <input type="text" id="quantity1" name="quantity1" value="1" disabled>
+
+        <label for="age1">blood type:</label>
+        <input type="text" id="age1" name="age1" value="O+" disabled>
+
+        <label for="date1">Date:</label>
+        <input type="text" id="date1" name="date1" value="4/9/23" disabled>
+      </div>
+
+     
+      <div class="info-box">
+        <label for="name1">Name:</label>
+        <input type="text" id="name1" name="name1" value="neyha" disabled>
+
+        <label for="quantity1">Qty:</label>
+        <input type="text" id="quantity1" name="quantity1" value="1" disabled>
+
+        <label for="age1">Bloodtype:</label>
+        <input type="text" id="age1" name="age1" value="AB+" disabled>
+
+        <label for="date1">Date:</label>
+        <input type="text" id="date1" name="date1" value="15/6/23" disabled>
+      </div>
+
+
+ 
+      <div class="info-box">
+        <label for="name1">Name:</label>
+        <input type="text" id="name1" name="name1" value="SARA" disabled>
+
+        <label for="quantity1">Qty:</label>
+        <input type="text" id="quantity1" name="quantity1" value="1" disabled>
+
+        <label for="age1">Bloodtype:</label>
+        <input type="text" id="age1" name="age1" value="B=" disabled>
+
+        <label for="date1">Date:</label>
+        <input type="text" id="date1" name="date1" value="10/3/23" disabled>
+      </div>
+
+      <!-- Repeat the above .info-box for the remaining three sets of data -->
+
+      <button class="submit-button">Next</button>
+    </div>
+  </div>
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+       body {
+      font-family: Arial, sans-serif;
+      background-color: #850404;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      height: 100vh;
+    }
+    .dashboard {
+      background-color: #eeeaeabe;
+      color: #700000;
+    padding : 20px;
+      width: 200px;
+      height: 800px;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: space-between;
+    }
+    .dashboard button {
+      background-color: #af0000;
+      color: #ffffff;
+      padding: 30px 60px 30px 60px;
+      border: none;
+      border-radius: 17px;
+      cursor: pointer;
+      margin-top: 10px;
+    margin-bottom: 3px;
+font-weight: bolder;
+    }
+
+    .content {
+      padding: 20px;
+      flex-grow: 1;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .info-container {
+      background-color: #f1baba;
+      border: 1px solid #ffffff;
+      border-radius: 14px;
+      padding: 60px 100px 60px 100px;
+      margin-top: 80px;
+      width:700px;
+      
+      text-align: left;
+      margin-bottom: 20px;
+     
+    }
+
+    .info-box {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      margin-bottom: 30px;
+      margin-left:0px ;
+    }
+
+    .info-box label {
+      color: #333;
+    }
+
+    .info-box input {
+      width: 100px;
+      padding: 8px;
+      box-sizing: border-box;
+    }
+
+    .submit-button {
+      background-color: #ffbebe;
+      color: #460000;
+      border: #FFF;
+      padding: 10px 40px 10px 40px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      margin-left: 490px;
+    }
+
+    .nav-buttons {
+      display: flex;
+      justify-content: flex-end;
+      margin-top: 40px;
+margin-left: 700px;
+    }
+    .nav-buttons button {
+      background-color: #ffbaba;
+      color: #550101;
+      margin-left: 10px;
+      padding: 18px 30px 18px 30px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    .info-box {
+      border: 1px solid #ffffff;
+      padding: 50px 190px 50px 190px;
+      margin-top: 10px;
+    }
+
+    .content-box {
+      display: flex;
+      flex-direction: column;
+      margin-top: 10px;
+    }
+
+    .box {
+      background-color: #ffc0c0ea;
+      border: 1px solid #ccc;
+      padding: 10px 240px 10px 240px;
+      margin-bottom: 10px;
+    }
+ 
+  </style>
+</head>
+<body>
+    <body>
+
+        <div class="dashboard">
+          <h1>Blood Donor</h1>
+      
+          <button>Donor</button>
+          <button>Hospital</button>
+          <button>Records</button>
+          <button>Request</button>
+          <button>Preview</button>
+        </div>
+      
+        <div class="content">
+          <div class="nav-buttons">
+            <button>Home</button>
+            <button>About Us</button>
+            <button>Contact</button>
+          </div>
+
+          <div class="info-box">
+            <div class="content-box">
+            <div class="box">
+              <p>O+   male 26 yrs  accepted   react </p>
+            </div>
+            <div class="box">
+            <p>O+   male 26 yrs   accepted   react </p>
+          </div>
+          <div class="box">
+          <p>O+   male 26 yrs   accepted   react</p>
+        </div>
+     <div class="box">
+        <p>O+   male 26 yrs   accepted   react </p>
+      </div>
+
+
+          </div>
+          </div>
+          <button class="submit-button">Next</button>
+          <!-- Add the rest of your content here -->
+</div>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+          /*  background-color: rgb(95, 0, 0);*/
+            color: rgb(70, 1, 1);
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-image: urL('file:///C:/Users/Haier/Downloads/Desktop%20-%208.png');
+             /* Replace with your actual background image URL */
+            /*background-image: url('file:///C:/Users/Haier/Downloads/image10.jpg');  Replace with your actual background image URL */
+            background-size:cover;
+            background-position: center;
+            background-repeat: no-repeat;
+           background-attachment:fixed;
+           height: 500px;
+        }
+
+        .container {
+            padding-top: 70px;
+        }
+
+        .congratulations-text {
+            font-size: 90px;
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-weight: bolder;
+            margin-top: 20px;
+           
+        color: rgb(110, 0, 0);
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <div class="container">
+        <div style="position: absolute; top: 0; left: 0; width: 200px; height: 100%; background-color: transparent;"></div>
+        <div class="congratulations-text">CONGRATULATIONS</div>
+      </div> 
+</body>
+
+</html>
+
+
+
+
